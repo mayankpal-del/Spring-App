@@ -1,17 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="359e6675-90f1-4064-b8e1-1b2aa049a3f3" name="Changes" comment="" />
+    <list default="true" id="359e6675-90f1-4064-b8e1-1b2aa049a3f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dynamo/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dynamo/config/DynamoDbConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dynamo/controllers/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dynamo/repository/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dynamo/services/MovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dynamo/config/AwsStaticCredentialsProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dynamo/config/BasicAwsCredentials.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dynamo/config/DynamoDBConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dynamo/crud/MovieOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dynamo/dbentitiy/MovieEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dynamo/dbentitiy/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dynamo/readCSV/MovieDataLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="17" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2Q2yREHZzLXo6DwiwcyoEupmvjI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -21,9 +64,49 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/maypal/Downloads/Spring-App",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dynamo.config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dynamo.App" />
+      <module name="Spring-App" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dynamo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <shortenClasspath name="ARGS_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,5 +117,42 @@
       <updated>1684565962912</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:com.amazonaws:aws-java-sdk-core" />
+    <option featureType="dependencySupport" implementationName="java:com.amazonaws:aws-java-sdk-s3" />
+    <option featureType="dependencySupport" implementationName="java:com.amazonaws:aws-java-sdk-dynamodb" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
